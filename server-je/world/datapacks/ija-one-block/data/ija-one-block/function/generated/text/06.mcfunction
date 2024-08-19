@@ -1,0 +1,6 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute as @s[tag=ija-a4-lang-en,scores={ija-a4-counter=6}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-6] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"\\u00A76Chests\\u00A7r can also appear!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-6"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-de,scores={ija-a4-counter=6}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-6] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"\\u00A76Truhen\\u00A7r können auch erscheinen!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-6"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-hu,scores={ija-a4-counter=6}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-6] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"\\u00A76Ládák\\u00A7r is megjelenhetnek!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-6"],"Duration":1000000,"NoGravity":true}

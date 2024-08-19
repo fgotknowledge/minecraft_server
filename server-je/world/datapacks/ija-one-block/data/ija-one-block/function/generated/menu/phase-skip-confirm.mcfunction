@@ -1,0 +1,14 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 0.2 0.7 0.2
+tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+execute if entity @e[tag=ija-a4-lang-en] run tellraw @s [{"text":" Skip to Phase","color":"gray"},{"text":"\n Changes the infinite block to a selected phase!\n","color":"white"}]
+execute if entity @e[tag=ija-a4-lang-en] run tellraw @s [{"text":" To proceed, you either need to have cheats enabled (Singleplayer) or operator rights (Multiplayer). Otherwise, you'll receive an error.\n ","color":"red"},{"text":"[Proceed]","color":"gold","clickEvent":{"action":"run_command","value":"/function ija-one-block:generated/menu/phase-skip"},"hoverEvent":{"action":"show_text","value":"Click to\nproceed."}}]
+execute if entity @e[tag=ija-a4-lang-en] run tellraw @s [{"text":"\n "},{"text":"[Back]","color":"red","clickEvent":{"action":"run_command","value":"/trigger ija-a4-trigger set 1"},"hoverEvent":{"action":"show_text","value":"Click to go back."}},{"text":"\n"}]
+execute if entity @e[tag=ija-a4-lang-de] run tellraw @s [{"text":" Zu Phase springen","color":"gray"},{"text":"\n Wechselt den unendlichen Block in eine ausgewählte Phase!\n","color":"white"}]
+execute if entity @e[tag=ija-a4-lang-de] run tellraw @s [{"text":" Um fortzufahren, müssen entweder Cheats aktiviert sein (Einzelspieler) oder du musst Admin Rechte haben (Mehrspieler). Andernfalls, bekommst du einen Fehler.\n ","color":"red"},{"text":"[Fortfahren]","color":"gold","clickEvent":{"action":"run_command","value":"/function ija-one-block:generated/menu/phase-skip"},"hoverEvent":{"action":"show_text","value":"Klicke um\nfortzufahren."}}]
+execute if entity @e[tag=ija-a4-lang-de] run tellraw @s [{"text":"\n "},{"text":"[Zurück]","color":"red","clickEvent":{"action":"run_command","value":"/trigger ija-a4-trigger set 1"},"hoverEvent":{"action":"show_text","value":"Klicke um zurückzugehen."}},{"text":"\n"}]
+execute if entity @e[tag=ija-a4-lang-hu] run tellraw @s [{"text":" Ugrás a fázisra","color":"gray"},{"text":"\n Átváltja a végtelen blokkot a következő fázisra!\n","color":"white"}]
+execute if entity @e[tag=ija-a4-lang-hu] run tellraw @s [{"text":" A továbblépéshez vagy a csalásokat kell bekapcsolnod (Egyjátékos), vagy operációs jog kell (Többjátkos). Máskülönben hibát fogsz kapni.\n ","color":"red"},{"text":"[Tovább]","color":"gold","clickEvent":{"action":"run_command","value":"/function ija-one-block:generated/menu/phase-skip"},"hoverEvent":{"action":"show_text","value":"Kattints\na továbblépéshez."}}]
+execute if entity @e[tag=ija-a4-lang-hu] run tellraw @s [{"text":"\n "},{"text":"[Vissza]","color":"red","clickEvent":{"action":"run_command","value":"/trigger ija-a4-trigger set 1"},"hoverEvent":{"action":"show_text","value":"Kattints a visszalépéshez."}},{"text":"\n"}]

@@ -1,0 +1,9 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute as @s[tag=ija-a4-lang-en,scores={ija-a4-counter=15}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-8] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"There are \\u00A7610\\u00A7r phases!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-8"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-de,scores={ija-a4-counter=15}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-8] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"Es gibt \\u00A7610\\u00A7r Phasen!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-8"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-hu,scores={ija-a4-counter=15}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-8] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"\\u00A7610\\u00A7r fázis van!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-8"],"Duration":1000000,"NoGravity":true}
+execute as @s[scores={ija-a4-counter=15}] unless entity @e[tag=ija-a4-text-8-tped] as @a at @s run teleport @p ~ ~0.3 ~ facing entity @e[tag=ija-a4-text-8,limit=1]
+execute as @s[scores={ija-a4-counter=15}] at @s unless entity @e[tag=ija-a4-text-8-tped] run execute as @a at @s run tp @p ~ ~ ~ ~ ~42
+execute as @e[tag=ija-a4-text-8] at @s unless entity @s[tag=ija-a4-text-8-tped] run tag @s add ija-a4-text-8-tped

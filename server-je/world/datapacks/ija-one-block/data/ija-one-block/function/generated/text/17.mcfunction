@@ -1,0 +1,9 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute as @s[tag=ija-a4-lang-en,scores={ija-a4-counter=33}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-17] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"Blocks like \\u00A76gravel\\u00A7r fall down!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-17"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-de,scores={ija-a4-counter=33}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-17] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"Blöcke wie \\u00A76Kies\\u00A7r fallen herunter!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-17"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-hu,scores={ija-a4-counter=33}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-17] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"A blokkok, mint \\u00A76sóder\\u00A7r leesnek!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-17"],"Duration":1000000,"NoGravity":true}
+execute as @s[scores={ija-a4-counter=33}] unless entity @e[tag=ija-a4-text-17-tped] as @a at @s run teleport @p ~ ~0.3 ~ facing entity @e[tag=ija-a4-text-17,limit=1]
+execute as @s[scores={ija-a4-counter=33}] at @s unless entity @e[tag=ija-a4-text-17-tped] run execute as @a at @s run tp @p ~ ~ ~ ~ ~42
+execute as @e[tag=ija-a4-text-17] at @s unless entity @s[tag=ija-a4-text-17-tped] run tag @s add ija-a4-text-17-tped

@@ -1,0 +1,6 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute as @s[tag=ija-a4-lang-en,scores={ija-a4-counter=18}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-11] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"There, fitting \\u00A76mobs\\u00A7r and \\u00A76blocks\\u00A7r spawn!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-11"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-de,scores={ija-a4-counter=18}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-11] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"Es erscheinen passende \\u00A76Mobs\\u00A7r und \\u00A76Blöcke\\u00A7r!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-11"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-hu,scores={ija-a4-counter=18}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-11] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"Ennek megfelelő \\u00A76lények\\u00A7r és \\u00A76blokkok\\u00A7r teremnek!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-11"],"Duration":1000000,"NoGravity":true}

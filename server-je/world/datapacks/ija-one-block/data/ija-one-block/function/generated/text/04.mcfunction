@@ -1,0 +1,6 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute as @s[tag=ija-a4-lang-en,scores={ija-a4-counter=4}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-4] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"It spawns \\u00A7amore\\u00A7r than dirt!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-4"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-de,scores={ija-a4-counter=4}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-4] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"Es erscheint \\u00A7amehr\\u00A7r als nur Erde!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-4"],"Duration":1000000,"NoGravity":true}
+execute as @s[tag=ija-a4-lang-hu,scores={ija-a4-counter=4}] at @s align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=ija-a4-text-4] run summon minecraft:area_effect_cloud ~-1.25 ~0.12 ~ {"CustomName":"{\"text\":\"\\u00A7aNem csak\\u00A7r földet teremt!\"}","CustomNameVisible":true,"Tags":["ija-a4-remove-on-skip","ija-a4-text","ija-a4-text-4"],"Duration":1000000,"NoGravity":true}

@@ -1,0 +1,6 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute if entity @e[tag=ija-a4-lang-en] run tellraw @s [{"text":"\nYou mined ","color":"yellow"},{"score":{"name":"@s","objective":"ija-a4-usermined"},"bold":true,"color":"gold"},{"text":" of ","color":"yellow"},{"score":{"name":"@e[tag=ija-a4-block,limit=1]","objective":"ija-a4-allmined"},"bold":true,"color":"gold"},{"text":" total blocks!","color":"yellow"}]
+execute if entity @e[tag=ija-a4-lang-de] run tellraw @s [{"text":"\nDu hast ","color":"yellow"},{"score":{"name":"@s","objective":"ija-a4-usermined"},"bold":true,"color":"gold"},{"text":" von ","color":"yellow"},{"score":{"name":"@e[tag=ija-a4-block,limit=1]","objective":"ija-a4-allmined"},"bold":true,"color":"gold"},{"text":" totalen Blöcken abgebaut!","color":"yellow"}]
+execute if entity @e[tag=ija-a4-lang-hu] run tellraw @s [{"text":"\n","color":"yellow"},{"score":{"name":"@s","objective":"ija-a4-usermined"},"bold":true,"color":"gold"},{"text":" blokkot bányásztál az összes ","color":"yellow"},{"score":{"name":"@e[tag=ija-a4-block,limit=1]","objective":"ija-a4-allmined"},"bold":true,"color":"gold"},{"text":" blokkból!","color":"yellow"}]
