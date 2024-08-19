@@ -1,0 +1,50 @@
+[15:15:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:15:06] [ServerMain/INFO]: No existing world data, creating new world
+[15:15:07] [ServerMain/INFO]: Loaded 1290 recipes
+[15:15:07] [ServerMain/INFO]: Loaded 1399 advancements
+[15:15:08] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:15:08] [Server thread/INFO]: Loading properties
+[15:15:08] [Server thread/INFO]: Default game type: SURVIVAL
+[15:15:08] [Server thread/INFO]: Generating keypair
+[15:15:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:15:08] [Server thread/INFO]: Using epoll channel type
+[15:15:08] [Server thread/INFO]: Preparing level "world"
+[15:15:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:15:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:27] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:27] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:28] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:15:28] [Server thread/INFO]: Time elapsed: 8135 ms
+[15:15:28] [Server thread/INFO]: Done (20.085s)! For help, type "help"
+[15:22:22] [User Authenticator #1/INFO]: UUID of player fascinated_94 is 2e25f497-5e11-4c00-964c-c884e7bf6a2d
+[15:22:23] [Server thread/INFO]: fascinated_94[/210.206.152.244:53938] logged in with entity id 19 at (-9.5, 76.0, 3.5)
+[15:22:23] [Server thread/INFO]: fascinated_94 joined the game
+[15:24:17] [Server thread/INFO]: fascinated_94 lost connection: Disconnected
+[15:24:17] [Server thread/INFO]: fascinated_94 left the game
+[15:40:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:40:46] [Server thread/INFO]: [3~[3~[2~sdafa:Q<--[HERE]
+[15:40:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:40:47] [Server thread/INFO]: <--[HERE]
+[15:42:38] [User Authenticator #2/INFO]: UUID of player fascinated_94 is 2e25f497-5e11-4c00-964c-c884e7bf6a2d
+[15:42:38] [Server thread/INFO]: fascinated_94[/210.206.152.244:56822] logged in with entity id 1149 at (66.8239288115523, 69.0, -43.30000001192093)
+[15:42:38] [Server thread/INFO]: fascinated_94 joined the game
+[15:42:44] [Server thread/INFO]: fascinated_94 lost connection: Disconnected
+[15:42:44] [Server thread/INFO]: fascinated_94 left the game
+[15:43:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:43:15] [Server thread/INFO]: swqdsfsadaㅁㅈㅇ르ㅑㅡczqqexit<--[HERE]
+[15:43:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:43:19] [Server thread/INFO]: exit<--[HERE]
+[15:45:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:45:25] [Server thread/INFO]: k<--[HERE]
